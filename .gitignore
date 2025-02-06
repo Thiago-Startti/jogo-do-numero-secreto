@@ -1,0 +1,80 @@
+# Ignora arquivos de configuração do VSCode
+.vscode/
+
+# Ignora dependências do Node.js
+node_modules/
+
+# Ignora arquivos de ambiente (variáveis de ambiente)
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos de cache
+.cache/
+.temp/
+
+# Ignora arquivos de build/dist
+dist/
+build/
+out/
+
+# Ignora arquivos de pacotes
+*.zip
+*.tar.gz
+*.rar
+
+# Ignora arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de IDE/Editores
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignora arquivos de depuração
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora arquivos de configuração do npm/yarn
+package-lock.json
+yarn.lock
+
+# Ignora arquivos de configuração do ESLint/Prettier
+.eslintcache
+.prettierignore
+.prettierrc
+
+# Ignora arquivos de configuração do Babel
+.babelrc
+
+# Ignora arquivos de configuração do Webpack
+webpack.config.js
+
+# Ignora arquivos de configuração do Jest
+coverage/
+jest.config.js
+
+# Ignora arquivos de configuração do TypeScript (se aplicável)
+tsconfig.json
+*.tsbuildinfo
+
+# Ignora arquivos de configuração do Git
+.gitattributes
+.gitmodules
+
+# Ignora arquivos de configuração do editor
+.editorconfig
+
+# Ignora arquivos de configuração do Docker (se aplicável)
+Dockerfile
+docker-compose.yml
